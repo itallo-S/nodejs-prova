@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-prova",
+  "version": "1.0.0",
+  "description": "Prova de NodeJs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itallo-S/nodejs-prova.git"
+  },
+  "author": "itallo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itallo-S/nodejs-prova/issues"
+  },
+  "homepage": "https://github.com/itallo-S/nodejs-prova#readme",
+  "dependencies": {
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.13",
+    "properties-reader": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
